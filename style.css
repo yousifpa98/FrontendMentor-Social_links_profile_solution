@@ -6,15 +6,18 @@ body {
     font-family: "Inter", sans-serif;
     color: hsl(0, 0%, 100%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: auto;
+    padding: 10px 0;
 }
 
 .attribution a {
@@ -25,7 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex: 1;
 }
 
 .contact-container {
@@ -35,20 +38,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 320px;
     border-radius: 15px;
     text-align: center;
 }
 
 .contact-img img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
 }
 
 .contact-name {
     color: hsl(0, 0%, 100%);
     margin: 15px 0 5px 0;
+    font-weight: 600;
+    font-size: 1.8em;
 }
 
 .location {
@@ -77,4 +83,17 @@ body {
 .social-links a:hover {
     color: hsl(0, 0%, 12%);
     background-color: hsl(75, 94%, 57%);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact-container {
+        width: 90%;
+        padding: 2em;
+    }
+
+    .social-links a {
+        padding: 10px 0;
+        margin: 3px 0;
+    }
 }
