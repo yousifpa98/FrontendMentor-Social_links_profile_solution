@@ -19,7 +19,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [gitHub repo](https://github.com/yousifpa98/FrontendMentor-Social_links_profile_solution)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [gh pages](https://yousifpa98.github.io/FrontendMentor-Social_links_profile_solution/)
 
 
 ### Built with
